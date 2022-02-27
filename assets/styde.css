@@ -1,0 +1,139 @@
+*{
+    padding:  0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap');
+html{
+    font-family: 'Poppins', sans-serif !important;
+    font-weight: 600 !important;
+   
+}
+#main{
+    height: 10000px;
+    background-color: hsl(219, 48%, 8%)
+}
+.header{
+    background-color: hsl(219, 48%, 8%);
+    box-shadow: 0 4px 4px hsl(0deg 0% 4% / 30%);
+    position: fixed;
+    left: 0px;
+    right: 0px;
+    /* background-color: hsl(219, 100%, 99%); */
+    /* box-shadow: 0 2px 4px hsl(0deg 0% 1% / 10%); */
+}
+.nav{
+    
+    height: 72px;
+    display: flex;
+    justify-content: space-between;
+    margin-left: auto;
+    margin-right: auto;
+    width: 950px;
+}
+.nav-home{
+    font-size: 16px;
+    line-height: 72px;
+    text-decoration: none;
+    
+    color: hsl(202deg 71% 57%);
+
+}
+.nav-home:hover{
+    color: rgb(110, 185, 228);
+
+
+}
+.bx-sun{
+    font-size: 24px;
+    line-height: 72px !important;
+    color: hsl(202deg 71% 57%);
+
+}
+.home-section{
+    padding-top: 139px;
+    
+    height: 720px;
+}
+.home-content{
+    width: 950px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.home-data{
+    
+    text-align: center;
+    
+
+}
+.home-i-am{
+    margin-bottom: 6px;
+    height: 21px;
+    color: #fff;
+}
+.home-name{
+    /* margin-bottom: 10px; */
+    height: 60px;
+    font-size: 40px;
+    color: #fff;
+}
+.home-edu{
+    font-size: 14px;
+    color: hsl(219, 8%, 75%);
+    margin-bottom: 2.5rem;
+}
+.home-buttons{
+    display: flex;
+    justify-content: center;
+    gap: 48px;
+}
+.button1{
+    border: 2px solid hsl(202deg 71% 57%);
+    padding: 17px;
+    border-radius: 0.5rem;
+    text-decoration: none;
+    font-size: 14px;
+    color: rgb(106, 173, 212);
+}
+.button2{
+    background-color: hsl(202deg 71% 57%);
+    border: 2px solid hsl(202deg 71% 57%);
+    padding: 17px;
+    border-radius: 0.5rem;
+    text-decoration: none;
+    font-size: 14px;
+    color: black;
+}
+.button2:hover,
+.button1:hover{
+    background-color: rgb(110, 185, 228);
+    color: black;
+}
+.home-links{
+    
+    
+    margin-top: 208px;
+    display: inline-block;
+}
+.home-link{
+    display: flex;
+    flex-direction: column;
+    text-decoration: none;
+    padding: 8px;
+    background-color: hsl(219, 32%, 12%);
+    margin-bottom: 12px;
+    border-radius: 0.5rem;
+    color: rgb(106, 173, 212);
+    font-size: 20px;
+}
+.home-link:hover{
+    background-color: rgb(110, 185, 228);
+    color: #fff;
+}
+.home-col{
+    width: 1px;
+    background-color: rgb(110, 185, 228);
+    height: 44px;
+    margin-left: 16px;
+}
